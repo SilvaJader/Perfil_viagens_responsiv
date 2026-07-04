@@ -29,10 +29,31 @@ a {
 }
   
 a:hover {
+  color: var(--brand-color);
   & svg path {
     stroke: var(--brand-color);
   }
-  & span {
-    color: var(--brand-color);
+}
+
+
+
+.flex {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.desktop-only {
+  display: none;
+}
+
+
+@media (width >= 80em) {
+  .desktop-only {
+    display: initial;
   }
 }

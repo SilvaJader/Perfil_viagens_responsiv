@@ -1,0 +1,31 @@
+header {
+    
+  & .container-header {
+    width: 100%;
+    overflow: hidden;
+    margin-inline: 1rem;
+    margin-block: 1rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  & svg path {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  & .navegacao {
+    align-items: center;
+  }
+
+  & nav img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  @media (width >= 80em) {
+  .container-header {
+    margin-inline: 2rem;
+    margin-block: 2rem;
+  }
+}  
