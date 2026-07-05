@@ -1,4 +1,5 @@
 header {
+  background-color: var(--surface-color);
     
   & .container-header {
     width: 100%;

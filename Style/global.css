@@ -35,13 +35,20 @@ a:hover {
   }
 }
 
-
-
+.container{
+  width: 100%;
+  padding-inline: 2rem;
+}
 .flex {
   display: flex;
   align-content: center;
   align-items: center;
 }
+
+.gap-0\.5 {
+  gap: 0.5rem;
+}
+
 
 .gap-1 {
   gap: 1rem;
