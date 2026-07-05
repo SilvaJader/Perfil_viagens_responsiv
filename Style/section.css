@@ -27,6 +27,8 @@
   width: 100%;
   gap: .5rem;
   padding-block: 2rem;
+  font: var(--fs-md);
+  color: var(--text-secondary);
   
   & .tags {
     width: 100%;

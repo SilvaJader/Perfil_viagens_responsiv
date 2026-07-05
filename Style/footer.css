@@ -1,0 +1,18 @@
+footer {
+  flex-direction: column;
+  padding-block: 1rem;
+  align-items: center;
+  font: 400 0.875rem/1.5 var(--font-family);
+  color: var(--text-secondary);
+
+}
+
+
+
+@media (width >= 80em) {
+  footer {
+    padding: 1.5rem 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+}
