@@ -1,0 +1,32 @@
+#portfolio {
+  background-color: var(--bg-color);
+}
+
+.pictures {
+  padding: 1rem;
+  width: 100%;
+  flex-direction: column;
+  justify-itens: center;
+  
+  & .pic-img {
+    width: 20.5rem;
+    height: 20.5rem;
+  }
+}
+
+@media (width >= 80em) {
+  .pictures {
+    padding: 1.5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.5rem;
+
+    & .pic-img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      height: auto;
+      object-fit: cover;
+
+    }
+  }
+}
